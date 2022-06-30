@@ -12,7 +12,7 @@ state: NY
 zip_code: 10027
 country: United States of America
 # phone: (716) 555-5555
-
+lab: https://efpl.engineering.columbia.edu
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 3
@@ -23,7 +23,7 @@ tiles-count: 3
 # You need to restart jekyll for changes to have an effect
 socials:
   # GitHub: https://github.com/andrewbanchich
-  GitLab: https://gitlab.com
+  GitLab: https://gitlab.com/hayatotakai/urban-greenery-project
   # Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
   # Instagram:
   # LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
