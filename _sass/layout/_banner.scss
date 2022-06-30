@@ -23,12 +23,14 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+		background-color: _palette(banner);
+
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: _palette(banner);
 			content: '';
 			display: block;
 			height: 100%;

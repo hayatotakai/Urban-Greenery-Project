@@ -7,6 +7,7 @@
 /* Menu */
 
 	#menu {
+		backdrop-filter: blur(4px);
 		@include vendor('transition', (
 			'transform #{_duration(menu)} ease',
 			'opacity #{_duration(menu)} ease',
@@ -16,7 +17,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
 		@include vendor('pointer-events', 'none');
-		background: transparentize(_palette(bg), 0.1);
+		background: transparentize(_palette(header), 0.1);
 		box-shadow: none;
 		height: 100%;
 		left: 0;

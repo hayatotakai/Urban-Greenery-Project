@@ -7,7 +7,7 @@
 /* Main */
 
 	#main {
-		background-color: _palette(bg-alt);
+		// background-color: _palette(bg3);
 
 		> * {
 			border-top: solid 1px _palette(border);
@@ -24,3 +24,15 @@
 			border-bottom: solid 1px _palette(border);
 		}
 	}
+	#two {
+		background-color: _palette(two);}
+
+		#one {
+			background-color: _palette(one);}
+			#three {
+				background-color: _palette(three);}
+				#blog{
+					background-color: _palette(blog);}
+					#satellite{
+						background-color: _palette(satellite);}
+				
