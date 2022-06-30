@@ -126,6 +126,7 @@
 		}
 
 		&.reveal {
+			
 			backdrop-filter: blur(4px);
 			@include vendor('animation', 'reveal-header 0.35s ease');
 		}
