@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a class="image">
-			<img src="{{ base.url }}/assets/images/render.png" alt="" data-position="center center" />
+			<img src="./assets/images/render.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -36,7 +36,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a class="image">
-			<img src="{{ base.url }}/assets/images/diagram.png" alt="" data-position="top center" />
+			<img src="./assets/images/diagram.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -49,7 +49,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a class="image">
-			<img src="{{ base.url }}/assets/images/temp.gif" alt="" data-position="25% 25%" />
+			<img src="./assets/images/temp.gif" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
