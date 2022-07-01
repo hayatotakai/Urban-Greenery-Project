@@ -8,6 +8,8 @@
 
 	#menu {
 		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+
 		@include vendor('transition', (
 			'transform #{_duration(menu)} ease',
 			'opacity #{_duration(menu)} ease',

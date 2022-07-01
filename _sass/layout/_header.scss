@@ -126,12 +126,13 @@
 		}
 
 		&.reveal {
-			
+			-webkit-backdrop-filter: blur(4px);
 			backdrop-filter: blur(4px);
 			@include vendor('animation', 'reveal-header 0.35s ease');
 		}
 
 		&.alt {
+			-webkit-backdrop-filter: blur(0px);
 			backdrop-filter: blur(0px);
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
