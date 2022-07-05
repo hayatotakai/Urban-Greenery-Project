@@ -42,3 +42,4 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- forty_jekyll_theme.gemspec
